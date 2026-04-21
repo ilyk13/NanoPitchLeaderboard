@@ -63,7 +63,7 @@
 <body>
   <h1>NanoPitch Student Leaderboard</h1>
   <p class="subtitle">
-    8 submissions &nbsp;·&nbsp; Last updated: 2026-04-21 &nbsp;·&nbsp;
+    9 submissions &nbsp;·&nbsp; Last updated: 2026-04-21 &nbsp;·&nbsp;
     Realtime Viterbi decoder &nbsp;·&nbsp;
     <a href="LEADERBOARD.md">Static MD table</a>
   </p>
@@ -118,6 +118,7 @@ const D = {
   "labels": [
     "Festus Ewakaa Kahunla",
     "Brady Chase",
+    "Ilysia Krzywonos",
     "Charis NoiseAugBaseline",
     "Dillon Positive Weight",
     "Charis Test",
@@ -159,6 +160,14 @@ const D = {
       92.06,
       94.43,
       94.32
+    ],
+    [
+      96.77,
+      92.12,
+      90.91,
+      93.4,
+      96.2,
+      94.24
     ],
     [
       96.61,
@@ -227,6 +236,14 @@ const D = {
       5.68
     ],
     [
+      3.23,
+      7.88,
+      9.09,
+      6.6,
+      3.8,
+      5.76
+    ],
+    [
       3.39,
       12.21,
       11.19,
@@ -278,6 +295,7 @@ const D = {
   "rpa_clean": [
     97.1,
     96.81,
+    96.77,
     96.61,
     95.37,
     94.82,
@@ -288,6 +306,7 @@ const D = {
   "rpa_macro": [
     91.67,
     93.42,
+    93.94,
     91.89,
     92.2,
     90.2,
@@ -298,6 +317,7 @@ const D = {
   "ger_clean": [
     2.9,
     3.19,
+    3.23,
     3.39,
     4.63,
     5.18,
@@ -308,6 +328,7 @@ const D = {
   "ger_macro": [
     8.33,
     6.58,
+    6.06,
     8.11,
     7.8,
     9.8,
@@ -339,6 +360,18 @@ const D = {
       "vdr_macro": 64.19,
       "vad_clean": 80.01,
       "vad_macro": 81.13
+    },
+    {
+      "name": "Ilysia Krzywonos",
+      "note": "Adjusted the weight for pitch/VAD loss, implemented noise augmentation and learning rate scheduler",
+      "rpa_clean": 96.77,
+      "rpa_macro": 93.94,
+      "ger_clean": 3.23,
+      "ger_macro": 6.06,
+      "vdr_clean": 72.54,
+      "vdr_macro": 66.48,
+      "vad_clean": 97.92,
+      "vad_macro": 94.87
     },
     {
       "name": "Charis NoiseAugBaseline",
